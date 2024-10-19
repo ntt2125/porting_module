@@ -1,0 +1,8 @@
+TensorFlow Conv1D shape: (32, 50, 64)
+{'equal': True, 'max_diff': np.float32(0.0), 'mean_diff': np.float32(0.0)}
+TensorFlow BatchNorm shape: (32, 50, 64)
+PyTorch BatchNorm shape: torch.Size([32, 50, 64])
+{'equal': False, 'error': '\nNot equal to tolerance rtol=1e-05, atol=1e-08\n\nMismatched elements: 17 / 102400 (0.0166%)\nMax absolute difference among violations: 4.8195943e-08\nMax relative difference among violations: 0.01135939\n ACTUAL: array([[[ 4.747912e-01, -1.390827e-01,  6.250881e-01, ...,\n         -1.764450e-01, -1.119251e+00, -1.228394e+00],\n        [ 7.947996e-01,  1.350325e+00, -7.799074e-02, ...,...\n DESIRED: array([[[ 4.747912e-01, -1.390827e-01,  6.250882e-01, ...,\n         -1.764450e-01, -1.119251e+00, -1.228394e+00],\n        [ 7.947996e-01,  1.350325e+00, -7.799076e-02, ...,...', 'max_diff': np.float32(9.536743e-07), 'mean_diff': np.float32(5.9305567e-08)}
+Comparison result: None
+PyTorch Bi-LSTM output shape: torch.Size([32, 50, 128])
+{'equal': False, 'error': '\nNot equal to tolerance rtol=1e-05, atol=1e-08\n\nMismatched elements: 573 / 204800 (0.28%)\nMax absolute difference among violations: 1.7823186e-07\nMax relative difference among violations: 0.01305734\n ACTUAL: array([[[ 0.112375,  0.105525, -0.203469, ..., -0.107902,  0.016351,\n          0.074677],\n        [-0.209197, -0.064421, -0.105105, ..., -0.04714 ,  0.051857,...\n DESIRED: array([[[ 0.112375,  0.105525, -0.203469, ..., -0.107902,  0.016351,\n          0.074677],\n        [-0.209197, -0.064421, -0.105105, ..., -0.04714 ,  0.051857,...', 'max_diff': np.float32(1.8440187e-07), 'mean_diff': np.float32(2.0580599e-08)}
